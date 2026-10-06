@@ -64,6 +64,7 @@ export interface Translations {
     cta: {
       viewExperience: string;
       downloadCv: string;
+      recommendationLetter: string;
       cvUnavailableTooltip: string;
       linkedIn: string;
       telegram: string;
@@ -111,6 +112,7 @@ export interface Translations {
       telegram: string;
       linkedIn: string;
       downloadCv: string;
+      recommendationLetter: string;
     };
   };
   footer: {

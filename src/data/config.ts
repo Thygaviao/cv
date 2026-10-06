@@ -13,6 +13,16 @@ export interface SiteConfig {
       available: boolean;
     };
   };
+  recommendationLetter: {
+    ru: {
+      path: string;
+      available: boolean;
+    };
+    en: {
+      path: string;
+      available: boolean;
+    };
+  };
 }
 
 export const siteConfig: SiteConfig = {
@@ -24,11 +34,22 @@ export const siteConfig: SiteConfig = {
   cv: {
     ru: {
       path: '/cv/kirill-burchikov-cv-ru.pdf',
-      available: true, // Will show link to Russian CV
+      available: true,
     },
     en: {
       path: '/cv/kirill-burchikov-cv-en.pdf',
       available: true,
     },
   },
+  recommendationLetter: {
+    ru: {
+      path: '/cv/kirill-burchikov-recommendation-letter-ru.pdf',
+      available: true,
+    },
+    en: {
+      path: '/cv/kirill-burchikov-recommendation-letter-en.pdf',
+      available: true,
+    },
+  },
 };
+
